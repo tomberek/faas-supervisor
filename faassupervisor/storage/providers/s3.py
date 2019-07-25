@@ -79,4 +79,4 @@ class S3(DefaultStorageProvider):
         get_logger().info("Changing ACLs for public-read for object in bucket '%s' with key '%s'",
                           bucket_name,
                           file_key)
-        _set_file_acl(bucket_name, file_key)
+        #_set_file_acl(bucket_name, file_key)
